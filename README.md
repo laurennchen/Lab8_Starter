@@ -1,1 +1,3 @@
 # Lab 8 - Starter
+1. I would fit the automated tests within a Github action that runs whenever code is pushed because I would want to test the Recipe project as I developed it (not all after development is completed). I also would do this so that I could make sure that the project is working on other peoples' browsers and not only on my local machine. 
+2. No, because checking a single function's output would be a very small scale test and would not cover the whole functionality that end to end tests are meant to cover; end to end tests are on a much larger scale than simply checking a function's output, as they test the project's functionality from start to finish on a user's action.
