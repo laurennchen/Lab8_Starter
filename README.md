@@ -1,5 +1,7 @@
 # Lab 8 - Starter
+Lauren Chen
+
 1. I would fit the automated tests within a Github action that runs whenever code is pushed because I would want to test the Recipe project as I developed it (not all after development is completed). I also would do this so that I could make sure that the project is working on other peoples' browsers and not only on my local machine. 
 2. No, because checking a single function's output would be a very small scale test and would not cover the whole functionality that end to end tests are meant to cover; end to end tests are on a much larger scale than simply checking a function's output, as they test the project's functionality from start to finish on a user's action.
-3. No, because testing the entire "message" feature would be a much bigger undertaking that would require a test that is much bigger scaled than a unit test-- unit tests are only meant to test the individual components that would make up a whole messaging feature, but not the whole feature with all of the moving parts included.
+3. No, because testing the entire "message" feature is a much bigger undertaking than what unit tests are meant for. This would require a test that is much bigger scaled than a unit test-- unit tests are only meant to test the individual components that would make up a whole messaging feature, but not the whole feature with all of the moving parts included.
 4. Yes, because testing the "max message length" feature is small-scaled and is a simple feature to test. The functionalities of the main features of the messaging application are not dependent upon if this single feature is operating correctly, so testing this would be easy and quick, which is perfect for a unit test.
